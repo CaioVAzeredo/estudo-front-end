@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.h1-strong{
+    color: rgb(88, 88, 241);
+}
+p{
+    color: white;
+}
+
+img{
+    border-radius: 15%;
+    box-shadow: 10px 10px 50px 10px white;
+}
