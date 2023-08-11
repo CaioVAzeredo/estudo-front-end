@@ -5,3 +5,8 @@ https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=12707652996
 
 --------------------------site para paleta de cores--------------------------
 https://colorhunt.co/
+
+
+---------------------------site para hospedar site----------------------------------
+
+https://vercel.com/new
