@@ -1,0 +1,105 @@
+Desenho básico (11 cursos):
+
+Comece com os fundamentos do desenho, uma base importante para muitas áreas do design.
+Desenho Digital (4 cursos):
+
+Avance para o desenho digital, aproveitando as habilidades aprendidas no desenho básico.
+Fundamentos do Design Visual (6 cursos):
+
+Adquira uma compreensão sólida dos princípios do design, que são fundamentais em várias disciplinas.
+Ferramentas essenciais do Photoshop (5 cursos):
+
+Aprenda a usar uma das ferramentas mais populares para edição de imagens.
+Ferramentas essenciais e design gráfico com o Illustrator (5 cursos):
+
+Familiarize-se com o Illustrator, uma ferramenta essencial para design gráfico.
+Adobe XD (9 cursos):
+
+Explore o Adobe XD para criar protótipos e interfaces digitais interativas.
+UI Design: construindo um produto digital (6 cursos):
+
+Aprofunde-se no design de interfaces de usuário para produtos digitais.
+UX Design (5 cursos):
+
+Compreenda os conceitos fundamentais de design de experiência do usuário.
+UX Research - Pesquisa para produtos digitais (9 cursos):
+
+Aprenda sobre pesquisa de usuário, um componente crucial do design de UX.
+UX Research: Análise e visualização de dados (7 cursos):
+
+Aprofunde-se na análise e interpretação de dados de pesquisa de UX.
+Design System (5 cursos):
+
+Explore como criar e implementar sistemas de design coesos.
+Motion Design (10 cursos):
+
+Introduza-se ao design de movimento para tornar suas criações mais dinâmicas.
+Edição de vídeo (14 cursos):
+
+Aprenda a editar vídeos usando o Adobe Premiere Pro.
+Produto final: Premiere Pro: mergulhando na edição de vídeos (5 cursos):
+
+Aprofunde-se mais na edição de vídeos para alcançar resultados profissionais.
+Identidade Visual (6 cursos):
+
+Aprenda a criar identidades visuais consistentes para marcas.
+Criação gráfica e editorial com o InDesign (6 cursos):
+
+Domine o InDesign para criar layouts gráficos e editoriais.
+Ilustração Publicitária no Photoshop (7 cursos):
+
+Explore a ilustração publicitária usando o Photoshop.
+Props para games (6 cursos):
+
+Adquira habilidades para criar ativos visuais para jogos.
+Design Gráfico (16 cursos):
+
+Amplie seus conhecimentos em design gráfico, abrangendo várias áreas.
+Desenvolvimento de Carreira em UX (5 cursos):
+
+Aprenda sobre o desenvolvimento profissional na área de UX.
+UX strategy (4 cursos):
+
+Aprofunde-se na estratégia de experiência do usuário.
+UX Writing (6 cursos):
+
+Explore a escrita voltada para a experiência do usuário.
+Identidade Visual com softwares gratuitos (6 cursos):
+
+Aprenda a criar identidades visuais usando ferramentas gratuitas.
+Figma (4 cursos):
+
+Familiarize-se com a plataforma Figma para design colaborativo.
+Adobe Mobile (5 cursos):
+
+Descubra como criar conteúdo para dispositivos móveis usando ferramentas da Adobe.
+Streaming (4 cursos):
+
+Aprenda sobre transmissões ao vivo e criação de conteúdo para plataformas de streaming.
+Fotografia: aprendendo conceitos fotográficos (4 cursos):
+
+Explore os fundamentos da fotografia antes de entrar em fotografia com celular.
+Fotografia com celular (4 cursos):
+
+Aprenda a tirar fotos de qualidade com seu smartphone.
+Pintura Digital no Photoshop (8 cursos):
+
+Aprofunde-se na pintura digital usando o Photoshop.
+Blender (5 cursos):
+
+Explore modelagem 3D, animação e criação com o software Blender.
+Produzindo com Inkscape (5 cursos):
+
+Aprenda a criar gráficos vetoriais usando o Inkscape.
+Produzindo com Krita (5 cursos):
+
+Aprofunde-se no Krita para criação de ilustrações e arte digital.
+Game art: construindo um mundo isométrico (5 cursos):
+
+Explore a criação de arte para jogos, focando em um estilo isométrico.
+HQ - Narrativa Sequencial (11 cursos):
+
+Aprenda a criar narrativas visuais por meio de quadrinhos.
+Service Design na prática (1 curso):
+
+Introduza-se ao design de serviços para melhorar as experiências do usuário.
