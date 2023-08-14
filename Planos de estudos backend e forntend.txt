@@ -1,0 +1,46 @@
+---------------------------------front-end------------------------------------
+
+-HTML e CSS para projetos web
+-Desenvolva aplicações Web com JavaScript
+-Bootstrap 5: desenvolvimento de websites responsivos e atraentes 
+-Desenvolva aplicações Web Acessíveis
+-Criando uma aplicação acessível com JavaScript, Emotion e React Router
+-Explore o Framework Angular
+-Explore React com JavaScript
+-Desenvolva aplicações Web e Mobile com React e React Native
+-Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos
+-Desenvolva aplicações Web Acessíveis (2ª parte)
+-Gerencie aplicações React com Typescript
+-Gerencie estados em React com Redux
+-Melhore sua aplicação React com o Next.js
+-Melhore sua aplicação React com testes automatizados
+-Impulsione sua aplicação React e consuma APIs
+-Melhore sua experiência de desenvolvimento com TypeScript
+-Melhore sua experiência JavaScript com Svelte
+-Ouse com o Framework Vue.js 3 
+-Performe sua aplicação React com Next.js Full stack
+-WordPress: crie sites do zero 
+
+
+
+---------------------------------back-end------------------------------------
+
+-Aprenda a programar em JavaScript com foco no back-end
+-APIs com Node.js e Express 
+-Autenticação, testes e segurança em Node.js
+-Aprenda a programar em Python com Orientação a Objetos 
+-SQL com MySQL Server da Oracle 
+-SQL com PostgreSQL
+-Aprofunde em Node.js com arquitetura Serverless
+-Aprofunde em PHP com arquitetura e padrões de projeto
+-Aprenda a programar em PHP
+-Aprofunde em PHP com programação funcional, assíncrona e metaprogramação
+-Boas práticas em PHP
+-Começando com Flask: framework web de Python
+-Django: crie aplicações em Python
+-Django REST APIs: crie aplicações REST em Python
+-Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor
+-PHP Web: crie aplicações web em PHP
+-MongoDB
+-Full stack JavaScript: crie um projeto com React e Node.js
+
