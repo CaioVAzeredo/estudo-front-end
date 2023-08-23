@@ -8,6 +8,7 @@ function geraNum() {
 
 console.log(numAleatorio)
 
+
 const elementoMenorValor = document.querySelector("#menor-valor")
 elementoMenorValor.innerHTML = menorValor
 const elementoMaiorValor = document.querySelector("#maior-valor")

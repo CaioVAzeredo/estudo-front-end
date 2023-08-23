@@ -11,19 +11,18 @@ function verificavalor(valor) {
     if (valor == 'oito') { valor = Number(8) }
     if (valor == 'nove') { valor = Number(9) }
     if (valor == 'dez') { valor = Number(10) }
-
     const numInteiro = Number(valor)
 
 
     if (condicaoMaiorOuMenor(numInteiro)) {
-        alert(`O numero tem que está entre ${menorValor} e ${maiorValor}`)
+        chute.innerHTML = `<div>O numero tem que está entre ${menorValor} e ${maiorValor}</div>`
     } else{
         if (!valorNaN(numInteiro)) {
             criaElemento(valor)
         }
     }
     if (valorNaN(numInteiro)){
-        alert("Não é um número. Por favor insira um número")
+        chute.innerHTML = `<div>Não é um número. Por favor insira um número</div>`
     }
     
 }

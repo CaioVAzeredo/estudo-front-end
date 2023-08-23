@@ -8,26 +8,23 @@ recognition.start()
 recognition.addEventListener('result', onSpeak)
 function onSpeak(e){
     const num = e.results[0][0].transcript
-    
+    console.log(e.results[0][0])
     verificavalor(num)
 }
 
 function criaElemento(numero){
-    const novoItem = document.createElement("div")
-    novoItem.classList.add('mensagem')
-    novoItem.setAttribute('id', 'chute')
 
     const vcDisse = document.createElement("div")
-    novoItem.appendChild(vcDisse)
+    chute.appendChild(vcDisse)
 
     const span = document.createElement("span")
     span.classList.add('box')
-    novoItem.appendChild(span)
+    chute.appendChild(span)
 
     const resultado = document.createElement("div")
-    novoItem.appendChild(resultado)
+    chute.appendChild(resultado)
     
-    document.body.appendChild(novoItem)
+    document.body.appendChild(chute)
     /* const valor = document.createElement("i")
     valor.classList.add("fa-solid")
     valor.classList.add("fa-arrow-up")
