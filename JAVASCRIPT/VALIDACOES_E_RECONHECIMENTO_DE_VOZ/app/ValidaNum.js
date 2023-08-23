@@ -17,15 +17,15 @@ function verificavalor(valor) {
 
     if (condicaoMaiorOuMenor(numInteiro)) {
         alert(`O numero tem que está entre ${menorValor} e ${maiorValor}`)
-    } else{
+    } else {
         if (!valorNaN(numInteiro)) {
             criaElemento(valor)
         }
     }
-    if (valorNaN(numInteiro)){
+    if (valorNaN(numInteiro)) {
         alert("Não é um número. Por favor insira um número")
     }
-    
+
 }
 
 
