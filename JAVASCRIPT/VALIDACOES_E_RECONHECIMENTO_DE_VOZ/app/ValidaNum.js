@@ -15,24 +15,15 @@ function verificavalor(valor) {
 
 
     if (condicaoMaiorOuMenor(numInteiro)) {
-<<<<<<< HEAD
-        alert(`O numero tem que está entre ${menorValor} e ${maiorValor}`)
-    } else {
-=======
+
         chute.innerHTML = `<div>O numero tem que está entre ${menorValor} e ${maiorValor}</div>`
     } else{
->>>>>>> 8d7e145a17af1dc2f9af31900665e76188205c19
         if (!valorNaN(numInteiro)) {
             criaElemento(valor)
         }
     }
-<<<<<<< HEAD
-    if (valorNaN(numInteiro)) {
-        alert("Não é um número. Por favor insira um número")
-=======
     if (valorNaN(numInteiro)){
         chute.innerHTML = `<div>Não é um número. Por favor insira um número</div>`
->>>>>>> 8d7e145a17af1dc2f9af31900665e76188205c19
     }
 
 }
