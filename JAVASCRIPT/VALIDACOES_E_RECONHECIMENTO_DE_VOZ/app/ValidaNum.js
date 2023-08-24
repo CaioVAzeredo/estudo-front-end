@@ -15,7 +15,6 @@ function verificavalor(valor) {
 
 
     if (condicaoMaiorOuMenor(numInteiro)) {
-
         chute.innerHTML = `<div>O numero tem que está entre ${menorValor} e ${maiorValor}</div>`
     } else{
         if (!valorNaN(numInteiro)) {
