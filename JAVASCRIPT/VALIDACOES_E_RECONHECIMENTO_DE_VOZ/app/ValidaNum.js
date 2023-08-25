@@ -11,15 +11,15 @@ function verificavalor(valor) {
     if (valor == 'oito') { valor = Number(8) }
     if (valor == 'nove') { valor = Number(9) }
     if (valor == 'dez') { valor = Number(10) }
-    if(valor == 'game over'){
+    if (valor == 'game over') {
         document.body.innerHTML = `
         <h1>Fim de Jogo</h1>
          <button id ='btn'>Jogar Novamente</button>
         `
-    document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "red";
     }
     const numInteiro = Number(valor)
-    
+
 
     if (condicaoMaiorOuMenor(numInteiro)) {
         chute.innerHTML = `<div>O numero tem que está entre ${menorValor} e ${maiorValor}</div>`
@@ -41,7 +41,7 @@ function verificavalor(valor) {
          <h3>${numInteiro}</h3>
          <button id ='btn'>Jogar Novamente</button>
         `
-        
+
     }
     if (numInteiro !== numAleatorio) {
         if (numInteiro > numAleatorio) {
