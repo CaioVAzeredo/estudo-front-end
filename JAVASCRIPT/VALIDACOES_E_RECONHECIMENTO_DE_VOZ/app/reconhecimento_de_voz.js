@@ -8,7 +8,7 @@ recognition.start()
 recognition.addEventListener('result', onSpeak)
 function onSpeak(e){
     const num = e.results[0][0].transcript
-    console.log(e.results[0][0])
+   
     verificavalor(num)
 }
 
@@ -24,7 +24,7 @@ function criaElemento(numero){
     const resultado = document.createElement("div")
     chute.appendChild(resultado)
     
-    document.body.appendChild(chute)
+    
     /* const valor = document.createElement("i")
     valor.classList.add("fa-solid")
     valor.classList.add("fa-arrow-up")
@@ -32,3 +32,6 @@ function criaElemento(numero){
     span.innerHTML = numero
     console.log(numero)
 }
+
+
+recognition.addEventListener('end', ()=>{ recognition.start() })

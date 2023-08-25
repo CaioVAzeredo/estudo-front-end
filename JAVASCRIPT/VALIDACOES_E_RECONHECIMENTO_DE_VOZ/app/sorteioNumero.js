@@ -1,9 +1,9 @@
 const menorValor = 1
-const maiorValor = 10
+const maiorValor = 1000
 const numAleatorio = geraNum()
 
 function geraNum() {
-    return (Math.random() * maiorValor + 1).toFixed(0)
+    return Number((Math.random() * maiorValor + 1).toFixed(0))
 }
 
 console.log(numAleatorio)
