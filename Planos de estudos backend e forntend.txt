@@ -1,7 +1,7 @@
 ---------------------------------front-end------------------------------------
 
 -HTML e CSS para projetos web*
--Desenvolva aplicações Web com JavaScript
+-Desenvolva aplicações Web com JavaScript *
 -Bootstrap 5: desenvolvimento de websites responsivos e atraentes 
 -Desenvolva aplicações Web Acessíveis
 -Criando uma aplicação acessível com JavaScript, Emotion e React Router
@@ -9,7 +9,6 @@
 -Explore React com JavaScript
 -Desenvolva aplicações Web e Mobile com React e React Native
 -Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos
--Desenvolva aplicações Web Acessíveis (2ª parte)
 -Gerencie aplicações React com Typescript
 -Gerencie estados em React com Redux
 -Melhore sua aplicação React com o Next.js
