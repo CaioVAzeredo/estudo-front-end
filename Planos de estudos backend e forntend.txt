@@ -2,7 +2,7 @@
 
 -HTML e CSS para projetos web*
 -Desenvolva aplicações Web com JavaScript *
--Bootstrap 5: desenvolvimento de websites responsivos e atraentes 
+-Bootstrap 5: desenvolvimento de websites responsivos e atraentes *
 -Desenvolva aplicações Web Acessíveis
 -Criando uma aplicação acessível com JavaScript, Emotion e React Router
 -Explore o Framework Angular

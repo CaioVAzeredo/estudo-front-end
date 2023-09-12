@@ -1,0 +1,24 @@
+.texto-menor{
+    font-size: 13px;
+}
+
+.divs-facilidades{
+    width: 325px;
+}
+.cor-texto-section{
+    color: #DAFF01;
+}
+.cor-branca{
+    color: white;
+}
+.botao-lilas{
+    background-color: blueviolet;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
