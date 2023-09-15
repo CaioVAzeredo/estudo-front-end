@@ -1,12 +1,13 @@
 ---------------------------------front-end------------------------------------
-
+--------------------------------HTML e CSS------------------------------------
 -HTML e CSS para projetos web*
 -CSS: aprofunde em estilos
 -Bootstrap 5: desenvolvimento de websites responsivos e atraentes *
 -Desenvolva aplicações Web Acessíveis
-
+-------------------------------------JS----------------------------------------
 -Desenvolva aplicações Web com JavaScript *
 -Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos
+-----------------------------------React---------------------------------------
 -Criando uma aplicação acessível com JavaScript, Emotion e React Router
 -Explore React com JavaScript
 -Gerencie aplicações React com Typescript
@@ -18,7 +19,9 @@
 -Performe sua aplicação React com Next.js Full stack
 -Melhore sua experiência de desenvolvimento com TypeScript
 -Melhore sua experiência JavaScript com Svelte
+-----------------------------------Angular-------------------------------------
 -Explore o Framework Angular
+
 -Ouse com o Framework Vue.js 3 
 -WordPress: crie sites do zero 
 
@@ -47,6 +50,3 @@
 -Aprofunde em PHP com programação funcional, assíncrona e metaprogramação
 -Boas práticas em PHP
 -PHP Web: crie aplicações web em PHP
-
-
-
