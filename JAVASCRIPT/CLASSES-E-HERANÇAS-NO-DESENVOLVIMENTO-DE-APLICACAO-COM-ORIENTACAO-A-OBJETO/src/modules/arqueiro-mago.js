@@ -5,12 +5,13 @@ import { Personagem } from "./personagem.js";
 export class ArqueiroMago extends Personagem{
     ladoAqueiro
     ladoMago
-    tipo = 'ArqueiroMago'
+    static descricao = 'Detentor de lancas e flechas mágicas!'
+    static tipo =  'ArqueiroMago'
 
-    constructor(nome, level, destreza, elementoMagico, levelMagico, inteligencia){
-        super(nome, level)
-        this.ladoAqueiro = new Arqueiro(nome, level, destreza)
-        this.ladoMago = new Mago(nome, level, elementoMagico, levelMagico, inteligencia)
+    constructor(nome, destreza, elementoMagico, levelMagico, inteligencia){
+        super(nome)
+        this.ladoAqueiro = new Arqueiro(nome, destreza)
+        this.ladoMago = new Mago(nome, elementoMagico, levelMagico, inteligencia)
     }
 
     obterInsigina() {
