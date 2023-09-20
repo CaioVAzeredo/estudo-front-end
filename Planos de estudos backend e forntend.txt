@@ -6,10 +6,11 @@
 -Desenvolva aplicações Web Acessíveis
 -------------------------------------JS----------------------------------------
 -Desenvolva aplicações Web com JavaScript *
--Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos
+-Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos*
+
 -----------------------------------React---------------------------------------
--Criando uma aplicação acessível com JavaScript, Emotion e React Router
 -Explore React com JavaScript
+-Criando uma aplicação acessível com JavaScript, Emotion e React Router
 -Gerencie aplicações React com Typescript
 -Desenvolva aplicações Web e Mobile com React e React Native
 -Gerencie estados em React com Redux
@@ -18,10 +19,12 @@
 -Impulsione sua aplicação React e consuma APIs
 -Performe sua aplicação React com Next.js Full stack
 -Melhore sua experiência de desenvolvimento com TypeScript
--Melhore sua experiência JavaScript com Svelte
+
 -----------------------------------Angular-------------------------------------
 -Explore o Framework Angular
 
+-----------------------------------Svelte-------------------------------------
+-Melhore sua experiência JavaScript com Svelte
 -Ouse com o Framework Vue.js 3 
 -WordPress: crie sites do zero 
 

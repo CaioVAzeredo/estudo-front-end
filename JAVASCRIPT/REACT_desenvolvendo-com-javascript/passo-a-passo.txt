@@ -1,0 +1,6 @@
+-------------------------Primeiro passo-------------------------------
+-abrir o terminal e abrir a pasta onde queremos instalar o npx
+-proximo passo é colocar o comando: npx create-react-app organo
+
+-------------------------Segundo passo------------------------------- 
+-colocar comando: npm start. Para iniciar o servidor local: http://localhost:3000/
