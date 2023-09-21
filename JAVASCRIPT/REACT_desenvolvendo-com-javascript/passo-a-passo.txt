@@ -4,3 +4,7 @@
 
 -------------------------Segundo passo------------------------------- 
 -colocar comando: npm start. Para iniciar o servidor local: http://localhost:3000/
+
+-------------------------Passo quando reiniciar------------------------------- 
+-abrir a pasta organo no terminal
+-colocar comando: npm start. Para iniciar o servidor local: http://localhost:3000/
