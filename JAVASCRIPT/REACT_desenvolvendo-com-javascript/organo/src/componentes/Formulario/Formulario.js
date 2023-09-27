@@ -4,7 +4,7 @@ import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 import { useState } from 'react'
 
-const Formulario = () => {
+const Formulario = (props) => {
     /* array */
     const times = [
         'Programação',
@@ -20,11 +20,17 @@ const Formulario = () => {
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
-    
+    const [time, setTime] = useState('')
+
     /* funçao salvar */
     const aoSalvar = (e) => {
         e.preventDefault()
-        console.log(`submetido => ${nome} ${cargo} ${imagem}`)
+        props.aoColaboradorCadastrado({
+            nome: nome,
+            cargo: cargo,
+            imagem: imagem,
+            time: time,
+        })
     }
 
     return (
@@ -60,7 +66,10 @@ const Formulario = () => {
                 <ListaSuspensa
                     obrigatorio={true}
                     label="Time"
-                    itens={times} />
+                    itens={times} 
+                    valor = {time}
+                    aoAlterado = {valor => setTime(valor)}
+                    />
                 <Botao>
                     Criar Card
                 </Botao>

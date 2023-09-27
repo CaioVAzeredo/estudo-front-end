@@ -1,4 +1,3 @@
-
 import './CampoTexto.css'
 const CampoTexto = (props) => { //props tem como parâmetro o que é passado para <CampoTexto label="Nome" placeholder = "Digite seu nome"/> do arquivo App.js que no caso é o label e o placeholder
 
