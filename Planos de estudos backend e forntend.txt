@@ -38,15 +38,15 @@
 -Aprofunde em Node.js com arquitetura Serverless
 -Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor
 -Full stack JavaScript: crie um projeto com React e Node.js
+------------------------------------BD---------------------------------------
+-SQL com MySQL Server da Oracle 
+-SQL com PostgreSQL
+-MongoDB
 ------------------------------------PY---------------------------------------
 -Aprenda a programar em Python com Orientação a Objetos
 -Começando com Flask: framework web de Python
 -Django: crie aplicações em Python
 -Django REST APIs: crie aplicações REST em Python
-------------------------------------BD---------------------------------------
--SQL com MySQL Server da Oracle 
--SQL com PostgreSQL
--MongoDB
 ------------------------------------PHP--------------------------------------
 -Aprofunde em PHP com arquitetura e padrões de projeto
 -Aprenda a programar em PHP
