@@ -1,0 +1,47 @@
+.rodape {
+    background-color: #6278F7;
+    display: flex;
+    justify-content: center;
+}
+
+.divRodape {
+    max-width: 80%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.redes {
+    padding: 0px 75px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+.redes img {
+    padding: 0px 10px;
+}
+
+.logo {
+    padding: 0px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alura {
+    padding: 0px 75px;
+    font-size: larger;
+    font-weight: 600;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
