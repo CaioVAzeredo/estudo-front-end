@@ -9,47 +9,24 @@
 -Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos*
 
 -----------------------------------React---------------------------------------
--Explore React com JavaScript
--Criando uma aplicação acessível com JavaScript, Emotion e React Router
--Gerencie aplicações React com Typescript
--Desenvolva aplicações Web e Mobile com React e React Native
--Gerencie estados em React com Redux
--Melhore sua aplicação React com o Next.js
--Melhore sua aplicação React com testes automatizados
--Impulsione sua aplicação React e consuma APIs
--Performe sua aplicação React com Next.js Full stack
--Melhore sua experiência de desenvolvimento com TypeScript
+-Explore React com JavaScript 7
+-Criando uma aplicação acessível com JavaScript, Emotion e React Router 3
+-Gerencie aplicações React com Typescript 8
+-Desenvolva aplicações Web e Mobile com React e React Native 4
+-Gerencie estados em React com Redux 5
+-Melhore sua aplicação React com o Next.js 7
+-Melhore sua aplicação React com testes automatizados 6
+-Impulsione sua aplicação React e consuma APIs 5
+-Performe sua aplicação React com Next.js Full stack 3
+-Melhore sua experiência de desenvolvimento com TypeScript 3
 
 -----------------------------------Angular-------------------------------------
--Explore o Framework Angular
+-Explore o Framework Angular 7
 
 -----------------------------------Svelte-------------------------------------
--Melhore sua experiência JavaScript com Svelte
--Ouse com o Framework Vue.js 3 
--WordPress: crie sites do zero 
+-Melhore sua experiência JavaScript com Svelte 3
+-Ouse com o Framework Vue.js3 4 
+-WordPress: crie sites do zero  2
 
 
 
----------------------------------back-end------------------------------------
-------------------------------------JS---------------------------------------
--Aprenda a programar em JavaScript com foco no back-end
--APIs com Node.js e Express 
--Autenticação, testes e segurança em Node.js
--Aprofunde em Node.js com arquitetura Serverless
--Nest.js: aplicações Node.js eficientes e escaláveis do lado do servidor
--Full stack JavaScript: crie um projeto com React e Node.js
-------------------------------------BD---------------------------------------
--SQL com MySQL Server da Oracle 
--SQL com PostgreSQL
--MongoDB
-------------------------------------PY---------------------------------------
--Aprenda a programar em Python com Orientação a Objetos
--Começando com Flask: framework web de Python
--Django: crie aplicações em Python
--Django REST APIs: crie aplicações REST em Python
-------------------------------------PHP--------------------------------------
--Aprofunde em PHP com arquitetura e padrões de projeto
--Aprenda a programar em PHP
--Aprofunde em PHP com programação funcional, assíncrona e metaprogramação
--Boas práticas em PHP
--PHP Web: crie aplicações web em PHP
