@@ -2,6 +2,9 @@ import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa/index.js'
 import Botao from '../Botao'
 import './formulario.css'
+import CampoTexto from '../CampoTexto'
+import ListaSuspensa from '../ListaSuspensa'
+import Botao from '../Botao'
 
 const formulario = () => {
     const times = [
