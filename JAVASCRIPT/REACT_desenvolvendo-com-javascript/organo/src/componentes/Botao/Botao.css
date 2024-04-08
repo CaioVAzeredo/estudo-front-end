@@ -1,44 +1,15 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4370ae6c8697ca1af145b2f773241041288debfa
-.botao {
+.botao{
     background-color: #6278f7;
     border-radius: 10px;
     font-weight: 700;
     font-size: 18px;
     padding: 32px;
-    border: none; 
+    border: none;
     cursor: pointer;
-    color: #FFF;
+    color: #fff;
     margin: 32px 0;
-<<<<<<< HEAD
-}
-
-.botao:hover {
-    color: #95FFD4
-}
-=======
-}
-
-.botao:hover {
-    color: #95FFD4
-}
-=======
-.botao{
-background-color: #6278f7;
-border-radius: 10px;
-font-weight: 700;
-font-size: 18px;
-padding: 32px;
-border: none;
-cursor: pointer;
-color: #fff;
-margin: 32px 0;
-}
-
-.botao:hover{
-    color: #95ffd4;
-}
->>>>>>> 3ece127a3fbf50beb80b5d8ddc4f8896859923aa
->>>>>>> 4370ae6c8697ca1af145b2f773241041288debfa
+    }
+    
+    .botao:hover{
+        color: #95ffd4;
+    }
