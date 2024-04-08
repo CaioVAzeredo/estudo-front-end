@@ -1,15 +1,20 @@
 import './CampoTexto.css'
+
 const CampoTexto = (props) => {
 
-    let valor = 'Caio viana'
-    const aoDigitado = (e) => {
-        valor = e.target.value
-        console.log(valor)
+    const placeholderModificada = `${props.placeholder}...` 
+
+    const aoDigitado = (evento) => {
+        props.aoAlterado(evento.target.value)
     }
+
     return (
         <div className="campo-texto">
-            <label>{props.label}</label>
-            <input value ={valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={props.placeholder} />
+            <label>
+                {props.label}
+            </label>
+            {/* 'onChange' é pegar qualquer adição de letra no imput, ele vai executar essa função  */}
+            <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
         </div>
     )
 }
