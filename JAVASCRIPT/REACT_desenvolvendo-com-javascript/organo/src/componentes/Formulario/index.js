@@ -8,9 +8,9 @@ const Formulario = (props) => {
 
     /* ---------------------------------------------------- */
     //nome = informação guardada. setNome = informação que vamos modificar. aspas do useState() é o valor padrão
-    const [nome, setNome] = useState('Caio Viana')
-    const [cargo, setCargo] = useState('CEO')
-    const [imagem, setImagem] = useState('HTTP...')
+    const [nome, setNome] = useState('')
+    const [cargo, setCargo] = useState('')
+    const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')
     /* ---------------------------------------------------- */
     const aoSalvar = (evento) => {
@@ -21,6 +21,8 @@ const Formulario = (props) => {
             imagem: imagem,
             time: time,
         })
+
+        
     }
 
     return (
