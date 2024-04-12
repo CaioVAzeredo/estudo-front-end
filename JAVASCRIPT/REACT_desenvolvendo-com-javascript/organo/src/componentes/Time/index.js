@@ -1,11 +1,16 @@
 import './time.css'
+import Colaborador from '../Colaborador/index.js'
 
 const Time = (props) => {
     const css = { backgroundColor: props.corSecundaria }
 
     return (
         <section className='time' style={css} /* style={{backgroundColor: props.corSecundaria}} */>
-            <h3 style={ {borderColor: props.corPrimaria}}>{props.nome}</h3>
+            <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
+            {/* COLABORADOR */}
+            <div className='colaboradores'>
+            {props.colaboradores.map(colaborador => <Colaborador nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem} time={colaborador.time} />)}
+            </div>
         </section>
     )
 }

@@ -42,19 +42,33 @@ function App() {
       corSecundaria: '#FFEEDF',
     }
   ]
-
+  /*  */
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaborador = (colaborador) => {
     /* ...colaboradores = colocando os antigos colaboradores. colaborador = adicionando o novo colaborador*/
     setColaboradores([...colaboradores, colaborador])
   }
-
+  console.log(colaboradores)
   return (
     <div className="App">
+      {/* BANNER */}
       <Banner />
-      <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaborador(colaborador)} />
-      {times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
+
+      {/* FORMULARIO */}
+      <Formulario
+        times={times.map(time => time.nome)}
+        aoColaboradorCadastrado={colaborador => aoNovoColaborador(colaborador)}
+      />
+
+      {/* TIMES */}
+      {times.map(time => <Time key={time.nome}
+        nome={time.nome} corPrimaria={time.corPrimaria}
+        corSecundaria={time.corSecundaria}
+        /* filter retorna o valor se for verdadeiro  */
+        colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+
+      />)}
 
     </div>
   );
