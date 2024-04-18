@@ -49,7 +49,6 @@ function App() {
     /* ...colaboradores = colocando os antigos colaboradores. colaborador = adicionando o novo colaborador*/
     setColaboradores([...colaboradores, colaborador])
   }
-  console.log(colaboradores)
   return (
     <div className="App">
       {/* BANNER */}
