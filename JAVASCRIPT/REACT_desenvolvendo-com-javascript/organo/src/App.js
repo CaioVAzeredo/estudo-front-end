@@ -45,10 +45,15 @@ function App() {
   /*  */
   const [colaboradores, setColaboradores] = useState([])
 
-  const aoNovoColaborador = (colaborador) => {
+  const aoNovoColaboradorAdicionado = (colaborador) => {
+    
     /* ...colaboradores = colocando os antigos colaboradores. colaborador = adicionando o novo colaborador*/
     setColaboradores([...colaboradores, colaborador])
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 117bedb5a0dda38e4cf56e51cd0c60803d6e315c
   return (
     <div className="App">
       {/* BANNER */}
@@ -57,7 +62,7 @@ function App() {
       {/* FORMULARIO */}
       <Formulario
         times={times.map(time => time.nome)}
-        aoColaboradorCadastrado={colaborador => aoNovoColaborador(colaborador)}
+        aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}
       />
 
       {/* TIMES */}
