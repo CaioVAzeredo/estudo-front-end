@@ -50,7 +50,10 @@ function App() {
     /* ...colaboradores = colocando os antigos colaboradores. colaborador = adicionando o novo colaborador*/
     setColaboradores([...colaboradores, colaborador])
   }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 117bedb5a0dda38e4cf56e51cd0c60803d6e315c
   return (
     <div className="App">
       {/* BANNER */}
