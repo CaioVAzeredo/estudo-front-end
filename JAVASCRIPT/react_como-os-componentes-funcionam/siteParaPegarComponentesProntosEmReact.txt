@@ -1,0 +1,10 @@
+https://mui.com/x/introduction/
+
+https://ant.design/docs/react/introduce
+
+https://react-icons.github.io/react-icons/search/#q=bin
+
+https://www.npmjs.com/
+		- npm i hex-to-rgba
+		- npm i uuid
+
