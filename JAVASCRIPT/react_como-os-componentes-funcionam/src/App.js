@@ -46,7 +46,7 @@ function App() {
     },
   ])
 
-  const inicial = [
+  const [colaboradores, setColaboradores] = useState([
     {
       id: uuidv4(),
       nome: 'JULIANA AMOASEI',
@@ -214,9 +214,7 @@ function App() {
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       time: times[5].nome
     },
-  ]
-
-  const [colaboradores, setColaboradores] = useState(inicial)
+  ])
 
   const aoDeletarColaborador = (id) => {
     setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id))
@@ -230,10 +228,21 @@ function App() {
       return time
     }))
   }
+  const cadastrarColaborador = (colaborador) => {
+    setColaboradores([...colaboradores, colaborador])
+  }
+  const aoCadastrarTime = (novoTime) => {
+    console.log('FORA DO FOMULARIO',novoTime)
+    setTimes([...times, { ...novoTime, id: uuidv4() }])
+  }
   return (
     <div>
       <Banner />
-      <Formulario times={times.map(time => time.nome)} aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} />
+      <Formulario
+        aoCadastrarTime={aoCadastrarTime}
+        aoCadastrarColaborador={cadastrarColaborador}
+        times={times.map(time => time.nome)}
+      />
       <section className="times">
         <h1>Minha organização</h1>
         {times.map((time, indice) =>
