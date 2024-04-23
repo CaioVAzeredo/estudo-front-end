@@ -7,7 +7,6 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 function App() {
-
   const [times, setTimes] = useState([
     {
       id: uuidv4(),
@@ -231,17 +230,16 @@ function App() {
   const cadastrarColaborador = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
   }
-  const aoCadastrarTime = (novoTime) => {
-    console.log('FORA DO FOMULARIO',novoTime)
+  const cadastrarTime = (novoTime) => {
     setTimes([...times, { ...novoTime, id: uuidv4() }])
   }
   return (
     <div>
       <Banner />
       <Formulario
-        aoCadastrarTime={aoCadastrarTime}
-        aoCadastrarColaborador={cadastrarColaborador}
         times={times.map(time => time.nome)}
+        cadastrarTime={cadastrarTime}
+        aoCadastrarColaborador={cadastrarColaborador}
       />
       <section className="times">
         <h1>Minha organização</h1>
