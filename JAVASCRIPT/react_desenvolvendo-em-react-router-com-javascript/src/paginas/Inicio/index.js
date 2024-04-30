@@ -1,5 +1,13 @@
+import Banner from "componentes/Banner"
+
 function Inicio() {
-    return (<h1>INICIO</h1>)
+    return (
+        <main>
+            <Banner />
+
+            <h1>INICIO</h1>
+        </main>
+    )
 }
 
 export default Inicio
