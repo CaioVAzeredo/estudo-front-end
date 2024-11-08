@@ -1,0 +1,12 @@
+
+.icones {
+    display: flex;
+    align-items: center;
+}
+
+.icone {
+    margin: 40px;
+    width: 25px;
+    cursor: pointer;
+}
+
