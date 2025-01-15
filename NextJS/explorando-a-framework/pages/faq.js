@@ -1,6 +1,7 @@
-import Link from "../src/components/Link";
-import Head from 'next/head'
-
+//import Link from "../src/components/Link";
+//import Head from 'next/head'
+import FAQScreen from '../src/screens/FAQScreen';
+export default FAQScreen;
 // SSG - Static Site Generation
 // SSR - Server Side Rendering
 // ISG - Incremental Static Generation
@@ -30,7 +31,7 @@ export async function getStaticProps() {
     }
 }
 
-export default function Faq({ faq }) {
+/* export default function Faq({ faq }) {
     console.log('Isso roda no servidor?')
     return (
         <div>
@@ -53,4 +54,4 @@ export default function Faq({ faq }) {
             </ul>
         </div>
     )
-}
+ }*/
