@@ -1,0 +1,7 @@
+-Explore o Framework Angular (8 cursos)
+-Angular: crie aplicações web ágeis (10 cursos)
+-Angular: cursos de testes automatizados para garantir a qualidade da sua aplicação (4 cursos)
+-Angular: construindo aplicações acessíveis e avançando em testes automatizados (4 cursos)
+-Angular: avance com service workers, signals e SSR (3 cursos)
+-Angular: cursos para construir um Design System com Nx, Monorepo e Storybook (3 cursos)
+-Desenvolva Aplicações Escaláveis com Angular (5 cursos)
