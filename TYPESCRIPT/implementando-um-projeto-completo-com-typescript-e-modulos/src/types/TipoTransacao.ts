@@ -1,5 +1,5 @@
 export enum TipoTransacao {
     DEPOSITO = "Depósito",
-    TRANSAFERENCIA = "Transferência",
+    TRANSFERENCIA = "Transferência",
     PAGAMENTO_BOLETO = "Pagamento de Boleto"
 }
