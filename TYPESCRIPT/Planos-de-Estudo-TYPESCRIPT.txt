@@ -1,2 +1,0 @@
-- Aplique TypeScript no Front-End (3 cursos)
-- Melhore sua experiência de desenvolvimento com TypeScript (3 cursos)

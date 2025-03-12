@@ -1,0 +1,1 @@
+na pasta principal do projeto, colocar "tsc -w" para monitorar os arquivos 
