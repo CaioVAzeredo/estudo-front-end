@@ -3,17 +3,17 @@ import { FormularioContatoComponent } from './paginas/formulario-contato/formula
 import { ListaContatosComponent } from './paginas/lista-contatos/lista-contatos.component';
 
 export const routes: Routes = [
-    {
-        path: 'formulario',
-        component: FormularioContatoComponent
-    },
-    {
-        path: 'lista-contatos',
-        component: ListaContatosComponent
-    },
-    {
-        path: '',
-        redirectTo:'/lista-contatos', 
-        pathMatch: 'full'
-    }
+  {
+    path: 'formulario',
+    component: FormularioContatoComponent
+  },
+  {
+    path: 'lista-contatos',
+    component: ListaContatosComponent
+  },
+  {
+    path: '',
+    redirectTo: '/lista-contatos',
+    pathMatch: 'full'
+  }
 ];
