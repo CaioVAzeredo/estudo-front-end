@@ -1,0 +1,40 @@
+{
+  "contatos": [
+    {
+      "nome": "Maria",
+      "telefone": "99 99999999",
+      "email": "maria@email.com",
+      "aniversario": "01/06/1995",
+      "redes": "",
+      "observacoes": "",
+      "id": 1
+    },
+    {
+      "nome": "João",
+      "telefone": "88 88888888",
+      "email": "maria@email.com",
+      "aniversario": "06/01/1990",
+      "redes": "",
+      "observacoes": "",
+      "id": 2
+    },
+    {
+      "nome": "CAIO VIANA DE AZEREDO",
+      "telefone": "61995839538",
+      "email": "caio.viana.39@gmail.com",
+      "aniversario": "",
+      "redes": "",
+      "observacoes": "",
+      "id": 3
+    },
+    {
+      "nome": "CAIO VIANA DE AZEREDO",
+      "telefone": "61995839538",
+      "email": "caio.viana.39@gmail.com",
+      "aniversario": "",
+      "redes": "",
+      "observacoes": "",
+      "id": 4
+    }
+  ]
+}
