@@ -49,7 +49,6 @@ import {
   PathLocationStrategy,
   PercentPipe,
   PlatformLocation,
-  PlatformNavigation,
   Plural,
   SlicePipe,
   TitleCasePipe,
@@ -95,20 +94,12 @@ import {
   provideCloudinaryLoader,
   provideImageKitLoader,
   provideImgixLoader,
-  provideNetlifyLoader,
   registerLocaleData,
   setRootDomAdapter
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/@angular_common.js
-} from "./chunk-6CZM2XMC.js";
+} from "./chunk-GG5BJ3P3.js";
 import {
   IMAGE_CONFIG
-} from "./chunk-DB7GMFSL.js";
-========
-} from "./chunk-ZQGI3ZYG.js";
-import {
-  IMAGE_CONFIG
-} from "./chunk-6DT2DWOU.js";
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/@angular_common.js
+} from "./chunk-GWLPIXA7.js";
 export {
   APP_BASE_HREF,
   AsyncPipe,
@@ -198,7 +189,6 @@ export {
   provideCloudinaryLoader,
   provideImageKitLoader,
   provideImgixLoader,
-  provideNetlifyLoader,
   registerLocaleData,
   DomAdapter as ɵDomAdapter,
   NullViewportScroller as ɵNullViewportScroller,
@@ -206,7 +196,6 @@ export {
   PLATFORM_SERVER_ID as ɵPLATFORM_SERVER_ID,
   PLATFORM_WORKER_APP_ID as ɵPLATFORM_WORKER_APP_ID,
   PLATFORM_WORKER_UI_ID as ɵPLATFORM_WORKER_UI_ID,
-  PlatformNavigation as ɵPlatformNavigation,
   getDOM as ɵgetDOM,
   normalizeQueryParams as ɵnormalizeQueryParams,
   parseCookieValue as ɵparseCookieValue,

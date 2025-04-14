@@ -15,7 +15,6 @@ import {
   HammerGestureConfig,
   HammerGesturesPlugin,
   HammerModule,
-  HydrationFeatureKind,
   INTERNAL_BROWSER_PLATFORM_PROVIDERS,
   KeyEventsPlugin,
   Meta,
@@ -35,20 +34,12 @@ import {
   provideProtractorTestingSupport,
   withHttpTransferCacheOptions,
   withNoHttpTransferCache
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/@angular_platform-browser.js
-} from "./chunk-JDNFXJKR.js";
-import "./chunk-GAN4B7DC.js";
+} from "./chunk-M2LVWWGN.js";
+import "./chunk-4P46Y5TD.js";
 import {
   getDOM
-} from "./chunk-6CZM2XMC.js";
-import "./chunk-DB7GMFSL.js";
-========
-} from "./chunk-XQC5PYM5.js";
-import {
-  getDOM
-} from "./chunk-ZQGI3ZYG.js";
-import "./chunk-6DT2DWOU.js";
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/@angular_platform-browser.js
+} from "./chunk-GG5BJ3P3.js";
+import "./chunk-GWLPIXA7.js";
 export {
   BrowserModule,
   By,
@@ -60,7 +51,6 @@ export {
   HAMMER_LOADER,
   HammerGestureConfig,
   HammerModule,
-  HydrationFeatureKind,
   Meta,
   REMOVE_STYLES_ON_COMPONENT_DESTROY,
   Title,

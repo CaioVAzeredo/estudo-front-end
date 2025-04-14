@@ -1,94 +1,56 @@
 {
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
   "hash": "a34456f5",
   "browserHash": "7b80fd14",
-========
-  "hash": "125b6183",
-  "configHash": "f941e207",
-  "lockfileHash": "25875097",
-  "browserHash": "15dc7ea2",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-      "fileHash": "d1c598e8",
+      "fileHash": "c968a1bb",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "3f4ccf66",
-========
-      "fileHash": "e1c6dc7b",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+      "fileHash": "dbf69d56",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-      "fileHash": "527666a9",
-========
-      "fileHash": "b4a6e76d",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+      "fileHash": "3c3dc5f0",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-      "fileHash": "2a8602de",
-========
-      "fileHash": "8e299285",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+      "fileHash": "703f7a71",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-      "fileHash": "61143ff4",
-========
-      "fileHash": "5013ccb4",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+      "fileHash": "956bfec6",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-      "fileHash": "ca1eb7e0",
-========
-      "fileHash": "e6be892c",
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+      "fileHash": "a02993c1",
       "needsInterop": false
     }
   },
   "chunks": {
-<<<<<<<< HEAD:ANGULAR/ANGULAR/comunicacao-com-uma-API/.angular/cache/17.0.3/vite/deps/_metadata.json
-    "chunk-JDNFXJKR": {
-      "file": "chunk-JDNFXJKR.js"
+    "chunk-M2LVWWGN": {
+      "file": "chunk-M2LVWWGN.js"
     },
-    "chunk-GAN4B7DC": {
-      "file": "chunk-GAN4B7DC.js"
+    "chunk-4P46Y5TD": {
+      "file": "chunk-4P46Y5TD.js"
     },
-    "chunk-6CZM2XMC": {
-      "file": "chunk-6CZM2XMC.js"
+    "chunk-GG5BJ3P3": {
+      "file": "chunk-GG5BJ3P3.js"
     },
-    "chunk-DB7GMFSL": {
-      "file": "chunk-DB7GMFSL.js"
-========
-    "chunk-XQC5PYM5": {
-      "file": "chunk-XQC5PYM5.js"
-    },
-    "chunk-ZQGI3ZYG": {
-      "file": "chunk-ZQGI3ZYG.js"
-    },
-    "chunk-6DT2DWOU": {
-      "file": "chunk-6DT2DWOU.js"
->>>>>>>> 78d08c8866d75784cdfadd8d27ebc426e88d9846:ANGULAR/ANGULAR/evoluindo-com-formularios-e-roteamento1/.angular/cache/17.3.14/vite/deps/_metadata.json
+    "chunk-GWLPIXA7": {
+      "file": "chunk-GWLPIXA7.js"
     }
   }
 }
