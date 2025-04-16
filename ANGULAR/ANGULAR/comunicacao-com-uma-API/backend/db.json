@@ -4,7 +4,7 @@
       "nome": "Maria",
       "telefone": "99 99999999",
       "email": "maria@email.com",
-      "aniversario": "01/06/1995",
+      "aniversario": "1995-01-06",
       "redes": "",
       "observacoes": "",
       "id": 1
@@ -13,15 +13,15 @@
       "nome": "João",
       "telefone": "88 88888888",
       "email": "maria@email.com",
-      "aniversario": "06/01/1990",
+      "aniversario": "1990-06-01",
       "redes": "",
       "observacoes": "",
       "id": 2
     },
     {
-      "nome": "CAIO VIANA DE AZEREDO",
+      "nome": "CAIO VIANA ",
       "telefone": "61995839538",
-      "email": "caio.viana.39@gmail.com",
+      "email": "caio.viana.39@hotmail.com",
       "aniversario": "",
       "redes": "",
       "observacoes": "",
