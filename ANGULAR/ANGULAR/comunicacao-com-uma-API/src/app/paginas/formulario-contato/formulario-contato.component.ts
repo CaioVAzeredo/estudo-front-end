@@ -6,8 +6,8 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { ContainerComponent } from '../../componentes/container/container.component';
 import { SeparadorComponent } from '../../componentes/separador/separador.component';
 import { ContatoService } from '../../services/contato.service';
-import { MensagemErroComponent } from "../../componentes/mensagem-erro/mensagem-erro.component";
-import { CabecalhoComponent } from "../../componentes/cabecalho/cabecalho.component";
+import { MensagemErroComponent } from '../../componentes/mensagem-erro/mensagem-erro.component';
+import { CabecalhoComponent } from '../../componentes/cabecalho/cabecalho.component';
 
 @Component({
   selector: 'app-formulario-contato',
@@ -20,11 +20,11 @@ import { CabecalhoComponent } from "../../componentes/cabecalho/cabecalho.compon
     RouterLink,
     MensagemErroComponent,
     CabecalhoComponent
-],
+  ],
   templateUrl: './formulario-contato.component.html',
   styleUrl: './formulario-contato.component.css'
 })
-export class FormularioContatoComponent implements OnInit {
+export class FormularioContatoComponent implements OnInit{
 
   contatoForm!: FormGroup;
 
@@ -32,7 +32,7 @@ export class FormularioContatoComponent implements OnInit {
     private contatoService: ContatoService,
     private router: Router,
     private activatedRoute: ActivatedRoute
-  ) { }
+    ) {}
 
   ngOnInit() {
     this.inicializarFormulario();
@@ -52,54 +52,52 @@ export class FormularioContatoComponent implements OnInit {
   }
 
   obterControle(nome: string): FormControl {
-    const control = this.contatoForm.get(nome);
-    if (!control) {
-      throw new Error('Controle de formularionao encontrado: ' + nome);
+    const control = this.contatoForm.get(nome)
+    if(!control) {
+      throw new Error('Controle de formulário não encontrado:' + nome)
     }
-    return control as FormControl;
-
+    return control as FormControl
   }
 
   carregarContato() {
     const id = this.activatedRoute.snapshot.paramMap.get('id');
     if (id) {
       this.contatoService.buscarPorId(parseInt(id)).subscribe((contato) => {
-        this.contatoForm.patchValue(contato); //.patchValue() permite a atualização parcial dos valores dos campos sem afetar o estado geral do formulário
-      })
+        this.contatoForm.patchValue(contato)
+      });
     }
   }
 
   salvarContato() {
     const novoContato = this.contatoForm.value;
     const id = this.activatedRoute.snapshot.paramMap.get('id');
-    novoContato.id = id ? parseInt(id) : null //Verificando se o contato tem um id antes de passar para o editarOuSalvarContato()
+    novoContato.id = id ? parseInt(id) : null
 
     this.contatoService.editarOuSalvarContato(novoContato).subscribe(() => {
       this.contatoForm.reset();
-      this.router.navigateByUrl('/lista-contatos');
+      this.router.navigateByUrl('/lista-contatos')
     });
   }
 
   aoSelecionarArquivo(event: any) {
-    const file: File = event.target.file[0];
-    if (file) {
-      this.lerArquivo(file);
+    const file: File = event.target.files[0]
+    if(file) {
+      this.lerArquivo(file)
     }
   }
 
-  /* transformando a foto em base64 */
   lerArquivo(file: File) {
     const reader = new FileReader();
     reader.onload = () => {
-      if (reader.result) {
+      if(reader.result) {
         this.contatoForm.get('avatar')?.setValue(reader.result)
       }
     }
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(file)
   }
 
   cancelar() {
     this.contatoForm.reset();
-    this.router.navigateByUrl('/lista-contatos');
+    this.router.navigateByUrl('/lista-contatos')
   }
 }

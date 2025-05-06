@@ -10,8 +10,7 @@ import { RouterLink } from '@angular/router';
   styleUrl: './cabecalho.component.css'
 })
 export class CabecalhoComponent {
-@Input() titulo: string = '';
-@Input() bannerSrc: string = '';
-@Input() telaInicial: boolean = false;
-
+  @Input() titulo: string = '';
+  @Input() bannerSrc: string = '';
+  @Input() telaInicial: boolean = false;
 }

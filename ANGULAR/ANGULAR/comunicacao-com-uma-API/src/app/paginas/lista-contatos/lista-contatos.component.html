@@ -1,11 +1,15 @@
 <app-container>
   <app-cabecalho
-  [telaInicial]="true"
-  [bannerSrc]="'assets/banner.png'"
-  [titulo]="'Organize, conecte, simplifique!'"
-  ></app-cabecalho>
+    [telaInicial]="true"
+    [bannerSrc]="'assets/banner.png'"
+    [titulo]="'Organize, <span>conecte,</span> simplifique!'">
+  </app-cabecalho>
 
-  <input type="search" placeholder="Digite para buscar" [(ngModel)]="filtroPorTexto" />
+  <input
+    type="search"
+    placeholder="Digite para buscar"
+    [(ngModel)]="filtroPorTexto"
+  />
 
   <section class="adicionar-contato">
     <button routerLink="/formulario">
@@ -15,16 +19,17 @@
   </section>
 
   @for (letra of alfabeto; track letra) {
-  <app-separador>
-    {{ letra }}
-  </app-separador>
-  @for (contato of filtrarContatosPorLetraInicial(letra); track contato.id) {
-  <app-contato 
-  [nome]="contato.nome" 
-  [telefone]="contato.telefone"
-  [id]="contato.id"
-  [avatar]="contato.avatar"
-  ></app-contato>
-  }
+    <app-separador>
+      {{ letra }}
+    </app-separador>
+    @for (contato of filtrarContatosPorLetraInicial(letra); track contato.id) {
+      <app-contato
+        [nome]="contato.nome"
+        [telefone]="contato.telefone"
+        [id]="contato.id!"
+        [avatar]="contato.avatar">
+      </app-contato>
+    }
   }
 </app-container>
+

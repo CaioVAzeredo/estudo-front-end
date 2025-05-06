@@ -1,27 +1,13 @@
 <app-container>
-  <!-- <header>
-    <section class="cabecalho-link">
-      <img src="assets/logo.png" alt="">
-      <div>
-        <button>
-          <img class="seta" src="assets/arrow-left.png" alt="">
-          <a routerLink="/lista-contatos">Voltar</a>
-        </button>
-      </div>
-    </section>
-    <section class="cabecalho-contato">
-      <img src="assets/perfil-contato.png" alt="">
-      <h1>Perfil do contato</h1>
-    </section>
-  </header> -->
-  <app-cabecalho 
-  [bannerSrc]="'assets/perfil-contato.png'" 
-  [titulo]="'Perfil do contato'">
+  <app-cabecalho
+    [bannerSrc]="'assets/perfil-contato.png'"
+    [titulo]="'Perfil do contato'">
   </app-cabecalho>
+
   <section class="perfil">
     <div class="imagem-perfil">
-      <img [src]="contato.avatar" alt="avatar contato">
-      <h2>{{contato.nome}}</h2>
+      <img [src]="contato.avatar" alt="Avatar do contato">
+      <h2><strong>{{ contato.nome }}</strong></h2>
     </div>
     <app-separador></app-separador>
     <ul>
@@ -46,11 +32,13 @@
       </li>
       <li>{{ contato.redes }}</li>
     </ul>
-    <div (click)="excluir()" class="botoes">
-      <button class="botao-excluir">
+    <div class="botoes">
+      <button (click)="excluir()" class="botao-excluir">
         Excluir contato
       </button>
-      <button class="botao-editar">
+      <button
+        class="botao-editar"
+        [routerLink]="['/formulario', contato.id]">
         Editar
       </button>
     </div>

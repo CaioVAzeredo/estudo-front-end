@@ -10,7 +10,7 @@ import { SeparadorComponent } from '../../componentes/separador/separador.compon
 import { FormularioContatoComponent } from '../formulario-contato/formulario-contato.component';
 import { ContatoService } from '../../services/contato.service';
 import { Contato } from '../../componentes/contato/contato';
-import { PerfilContatoComponent } from "../perfil-contato/perfil-contato.component";
+import { PerfilContatoComponent } from '../perfil-contato/perfil-contato.component';
 
 @Component({
   selector: 'app-lista-contatos',
@@ -23,19 +23,18 @@ import { PerfilContatoComponent } from "../perfil-contato/perfil-contato.compone
     ContatoComponent,
     FormsModule,
     FormularioContatoComponent,
-    RouterLink,
-    PerfilContatoComponent
-],
+    RouterLink
+  ],
   templateUrl: './lista-contatos.component.html',
   styleUrl: './lista-contatos.component.css'
 })
-export class ListaContatosComponent implements OnInit {
+export class ListaContatosComponent implements OnInit{
   alfabeto: string = 'abcdefghijklmnopqrstuvwxyz'
   contatos: Contato[] = [];
 
   filtroPorTexto: string = ''
 
-  constructor(private contatoService: ContatoService) { }
+  constructor(private contatoService: ContatoService) {}
 
   ngOnInit() {
     this.contatoService.obterContatos().subscribe(listaContatos => {

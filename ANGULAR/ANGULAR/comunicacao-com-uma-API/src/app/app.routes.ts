@@ -13,12 +13,12 @@ export const routes: Routes = [
     component: FormularioContatoComponent
   },
   {
-    path: 'perfil-contato/:id',
-    component: PerfilContatoComponent
-  },
-  {
     path: 'lista-contatos',
     component: ListaContatosComponent
+  },
+  {
+    path: 'perfil-contato/:id',
+    component: PerfilContatoComponent
   },
   {
     path: '',

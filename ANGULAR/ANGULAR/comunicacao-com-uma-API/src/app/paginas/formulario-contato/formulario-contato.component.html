@@ -1,67 +1,78 @@
 <app-container>
- <!--  <header>
-    <section class="cabecalho-link">
-      <img src="assets/logo.png" alt="">
-      <div>
-        <button>
-          <img class="seta" src="assets/arrow-left.png" alt="">
-          <a routerLink="/lista-contatos">Voltar</a>
-        </button>
-      </div>
-    </section>
-    <section class="cabecalho-contato">
-      <img src="assets/adicionar-contato.png" alt="">
-      <h1>Adicionar contato</h1>
-    </section>
-  </header>
-  <app-separador></app-separador> -->
   <app-cabecalho
-    [telaInicial]="false"
     [bannerSrc]="'/assets/adicionar-contato.png'"
-    [titulo]="'Adicionar contato'"
-    ></app-cabecalho>
-
+    [titulo]="'Adicionar contato'">
+  </app-cabecalho>
   <form [formGroup]="contatoForm" (ngSubmit)="salvarContato()">
-
     <div role="button" class="imagem-contato">
       <i class="material-icons">add</i>
       <label for="avatar">Adicione a imagem do contato</label>
-      <input type="file" accept="image/*" id="avatar" required (change)="aoSelecionarArquivo($event)">
+      <input
+        type="file"
+        accept="image/*"
+        id="avatar"
+        required
+        (change)="aoSelecionarArquivo($event)">
     </div>
-
-    @if(contatoForm.get('avatar')?.value !== ''){
-    <figure>
-      <img [src]="contatoForm.get('avatar')?.value" alt="avatar do contato">
-    </figure>
+    @if(contatoForm.get('avatar')?.value !== '') {
+      <figure>
+        <img [src]="contatoForm.get('avatar')?.value" alt="Avatar do contato">
+      </figure>
     }
-
     <label for="nome">Nome</label>
-    <input type="text" id="nome" placeholder="Digite o nome do contato" formControlName="nome" />
-    <app-mensagem-erro [control]="obterControle('nome')"> </app-mensagem-erro>
-
+    <input
+      type="text"
+      id="nome"
+      placeholder="Digite o nome do contato"
+      formControlName="nome"
+    />
+    <app-mensagem-erro [control]="obterControle('nome')"></app-mensagem-erro>
     <label for="telefone">Telefone</label>
-    <input type="text" id="telefone" placeholder="Digite o telefone do contato" formControlName="telefone" />
-    <app-mensagem-erro [control]="obterControle('telefone')"> </app-mensagem-erro>
-
+    <input
+      type="text"
+      id="telefone"
+      placeholder="Digite o telefone do contato"
+      formControlName="telefone"
+    />
+    <app-mensagem-erro [control]="obterControle('telefone')"></app-mensagem-erro>
     <label for="email">E-mail</label>
-    <input type="email" id="email" placeholder="Digite o e-mail do contato" formControlName="email" />
-    <app-mensagem-erro [control]="obterControle('email')"> </app-mensagem-erro>
-    
+    <input
+      type="email"
+      id="email"
+      placeholder="Digite o e-mail do contato"
+      formControlName="email"
+    />
+    <app-mensagem-erro [control]="obterControle('email')"></app-mensagem-erro>
     <app-separador></app-separador>
     <label for="aniversario">Aniversário</label>
-    <input type="date" id="aniversario" placeholder="Data de nascimento" formControlName="aniversario" />
+    <input
+      type="date"
+      id="aniversario"
+      placeholder="Data de nascimento"
+      formControlName="aniversario"
+    />
     <label for="redes">Redes sociais</label>
     <div class="input-container">
       <span class="span-http">http://</span>
-      <input type="url" id="redes" placeholder="Adicione a URL da página" formControlName="redes" />
+      <input
+        type="url"
+        id="redes"
+        placeholder="Adicione a URL da página"
+        formControlName="redes"
+      />
     </div>
     <label for="redes">Observações</label>
-    <textarea type="text" id="observacoes"
+    <textarea
+      type="text"
+      id="observacoes"
       placeholder="Coloque observações nesse espaço.  Exemplo: “Instrutora da academia “Nova Imagem”, amiga da Júlia”."
-      formControlName="observacoes"></textarea>
+      formControlName="observacoes"
+    ></textarea>
     <section class="botoes">
       <button (click)="cancelar()" class="botao-cancelar" type="button">Cancelar</button>
-      <button [disabled]="contatoForm.invalid" [ngClass]="contatoForm.valid ? 'botao-salvar' : 'botao-desabilitado'"
+      <button
+        [disabled]="contatoForm.invalid"
+        [ngClass]="contatoForm.valid ? 'botao-salvar' : 'botao-desabilitado'"
         type="submit">
         Salvar contato
       </button>
