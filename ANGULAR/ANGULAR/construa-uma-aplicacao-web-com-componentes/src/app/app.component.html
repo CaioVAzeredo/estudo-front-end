@@ -11,6 +11,7 @@
   <app-separador>
     {{letra}}
   </app-separador>
+  
   <!-- ------------------------------------------ -->
   @for(contato of filtrarCotatosPorLetraInicial(letra); track contato.id ){
   <app-contato nome={{contato.nome}} telefone={{contato.telefone}}></app-contato>
